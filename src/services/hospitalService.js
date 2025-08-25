@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/hospitals"; // adjust if needed
+const API_URL = "https://organconnect-vq06.onrender.com/api/hospitals"; // adjust if needed
 
 export const getHospitals = () => axios.get(API_URL);
 export const getHospitalById = (id) => axios.get(`${API_URL}/${id}`);
